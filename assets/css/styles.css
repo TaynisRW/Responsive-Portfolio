@@ -143,13 +143,13 @@ nav.nav{
   align-items: center;
 }
 
-nav.nav .nav__toggle{
+nav.nav .nav-toggle{
   color: var(--first-color-dark);
   font-size: 1.3rem;
   cursor: pointer;
 }
 
-nav .nav__menu{
+nav .nav-menu{
   position: fixed;
   top: 0;
   left: -100%;
@@ -162,7 +162,7 @@ nav .nav__menu{
   transition: .5s;
 }
 
-nav .nav__menu .nav__close{
+nav .nav-menu .nav-close{
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -171,11 +171,11 @@ nav .nav__menu .nav__close{
   cursor: pointer;
 }
 
-nav .nav__menu ul.nav__list li.nav__item{
+nav .nav-menu ul.nav-list li.nav-item{
   margin-bottom: var(--mb-4);
 }
 
-nav .nav__menu ul.nav__list li.nav__item a.nav__link{
+nav .nav-menu ul.nav-list li.nav-item a.nav-link{
   font-size: 1rem;
   text-transform: uppercase;
   color: var(--first-color-lighten);
@@ -183,26 +183,26 @@ nav .nav__menu ul.nav__list li.nav__item a.nav__link{
   transition: 0.3s;
 }
 
-nav .nav__menu ul.nav__list li.nav__item a.nav__link:hover{
+nav .nav-menu ul.nav-list li.nav-item a.nav-link:hover{
   color: var(--text-color);
 }
 
 /*=== Show menu ===*/
-nav .nav__menu.show{
+nav .nav-menu.show{
   left: 0;
 }
 
 /*Active menu*/
-nav .nav__menu ul.nav__list li a.nav__link.active{
+nav .nav-menu ul.nav-list li a.nav-link.active{
   color: var(--text-color);
 }
 
 /*===== HOME =====*/
-section.home .home__container{
+section.home .home-container{
   height: calc(100vh - var(--header-height));
   align-items: center;
 }
-section.home .home__container .home__data{
+section.home .home-container .home-data{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,7 +210,7 @@ section.home .home__container .home__data{
   text-align: center;
 }
 
-section.home .home__container .home__data .home__img{
+section.home .home-container .home-data .home-img{
   padding-top: 1.3rem;
   padding-left: .8rem;
   width: 160px;
@@ -221,27 +221,27 @@ section.home .home__container .home__data .home__img{
   margin-bottom: var(--mb-2);
 }
 
-section.home .home__container .home__data .home__img img{
+section.home .home-container .home-data .home-img img{
   width: 155px;
 }
 
-section.home .home__container .home__data h1.home__title{
+section.home .home-container .home-data h1.home-title{
   font-size: var(--h1-font-size);
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
 }
 
-section.home .home__container .home__data span.home__profession{
+section.home .home-container .home-data span.home-profession{
   font-size: var(--small-font-size);
   color: var(--first-color-dark);
   margin-bottom: var(--mb-5);
 }
 
-section.home .home__container .home__data .home__social{
+section.home .home-container .home-data .home-social{
   margin-bottom: 5rem;
 }
 
-section.home .home__container .home__data .home__social a.home__social-link{
+section.home .home-container .home-data .home-social a.home-social-link{
   display: inline-flex;
   background-color: var(--first-color);
   color: var(--first-color-lighten);
@@ -252,11 +252,11 @@ section.home .home__container .home__data .home__social a.home__social-link{
   transition: 0.3s;
 }
 
-section.home .home__container .home__data .home__social a.home__social-link:hover{
+section.home .home-container .home-data .home-social a.home-social-link:hover{
   background-color: var(--first-color-dark);
 }
 
-section.home .home__container .home__data a.home__button{
+section.home .home-container .home-data a.home-button{
   width: 100%;
 }
 /*BUTTONS*/
@@ -274,77 +274,77 @@ section.home .home__container .home__data a.home__button{
   background-color: var(--first-color-dark);
 }
 
-.button__light{
+.button-light{
   background-color: var(--first-color-lighten);
   color: var(--first-color);
 }
 
-.button__light:hover{
+.button-light:hover{
   color: var(--first-color-lighten);
 }
 
 /* ===== ABOUT =====*/
-section.about .about__container{
+section.about .about-container{
   row-gap: 2rem;
 }
 
-section.about .about__container .about__data{
+section.about .about-container .about-data{
   text-align: center;
 }
 
-section.about .about__container .about__data p.about__description{
+section.about .about-container .about-data p.about-description{
   margin-bottom: var(--mb-4);
 }
 
-section.about .about__container .about__data img.about__img{
+section.about .about-container .about-data img.about-img{
   width: 150px;
   border-radius: 0.5rem;
   margin: 0 auto;
 }
 
-section.about .about__container .about__information{
+section.about .about-container .about-information{
   margin-bottom: var(--mb-4);
 }
 
-section.about .about__container .about__information h3.about__information-title{
+section.about .about-container .about-information h3.about-information-title{
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
   margin-bottom: var(--mb-2);
 }
 
-section.about .about__container .about__information .about__information-data{
+section.about .about-container .about-information .about-information-data{
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
   margin-bottom: var(--mb-3);
 }
 
-section.about .about__container .about__information .about__information-data i.about__information-icon{
+section.about .about-container .about-information .about-information-data i.about-information-icon{
   font-size: 1.5rem;
   color: var(--first-color);
   margin-right: var(--mb-4);
 }
 
-section.about .about__container .about__information .about__information-data span.about__information-subtitle{
+section.about .about-container .about-information .about-information-data span.about-information-subtitle{
   display: block;
   font-weight: var(--font-semi-bold);
 }
-section.about .about__container .about__information .about__information-data span.about__information-subtitle-small{
+section.about .about-container .about-information .about-information-data span.about-information-subtitle-small{
   font-size: var(--small-font-size);
 }
 
 /* ===== SKILLS =====*/
-section.skills .skills__container{
+section.skills .skills-container{
   row-gap: 2rem;
 }
 
-section.skills .skills__container .skills__content h3.skills__subtitle{
+section.skills .skills-container .skills-content h3.skills-subtitle{
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
   margin-bottom: var(--mb-2);
 }
 
-section.skills .skills__container .skills__content .skills__data{
+section.skills .skills-container .skills-content .skills-data{
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -352,11 +352,11 @@ section.skills .skills__container .skills__content .skills__data{
   margin-bottom: var(--mb-4);
 }
 
-section.skills .skills__container .skills__content .skills__data span.skills__name{
+section.skills .skills-container .skills-content .skills-data span.skills-name{
   text-transform: uppercase;
 }
 
-section.skills .skills__container .skills__content .skills__data span.skills__bar{
+section.skills .skills-container .skills-content .skills-data span.skills-bar{
   position: absolute;
   bottom: -0.75rem;
   height: .25rem;
@@ -364,43 +364,211 @@ section.skills .skills__container .skills__content .skills__data span.skills__ba
 }
 
 /* ===== SKILLS BAR FRONTEND=====*/
-section.skills .skills__container .skills__content .skills__data span.skills__bar.skills__html{
+section.skills .skills-container .skills-content .skills-data span.skills-bar.skills-html{
   width: 80%;
 }
-section.skills .skills__container .skills__content .skills__data span.skills__bar.skills__js{
+section.skills .skills-container .skills-content .skills-data span.skills-bar.skills-js{
   width: 90%;
 }
-section.skills .skills__container .skills__content .skills__data span.skills__bar.skills__react{
+section.skills .skills-container .skills-content .skills-data span.skills-bar.skills-react{
   width: 50%;
 }
-section.skills .skills__container .skills__content .skills__data span.skills__bar.skills__sass{
+section.skills .skills-container .skills-content .skills-data span.skills-bar.skills-sass{
   width: 60%;
 }
 
 /* ===== SKILLS BAR BACKEND=====*/
-section.skills .skills__container .skills__content .skills__data span.skills__bar.skills__php{
+section.skills .skills-container .skills-content .skills-data span.skills-bar.skills-php{
   width: 80%;
 }
-section.skills .skills__container .skills__content .skills__data span.skills__bar.skills__node{
+section.skills .skills-container .skills-content .skills-data span.skills-bar.skills-node{
   width: 70%;
 }
-section.skills .skills__container .skills__content .skills__data span.skills__bar.skills__mysql{
+section.skills .skills-container .skills-content .skills-data span.skills-bar.skills-mysql{
   width: 80%;
 }
-section.skills .skills__container .skills__content .skills__data span.skills__bar.skills__python{
+section.skills .skills-container .skills-content .skills-data span.skills-bar.skills-python{
   width: 10%;
 }
-/* ===== EDUCATION =====*/
 
+/* ===== EDUCATION =====*/
+section.education .education-container{
+  row-gap: 2rem;
+}
+
+section.education .education-container .education-content{
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+}
+
+section.education .education-container .education-content h3.education-year,
+section.education .education-container .education-content h3.education-race{
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.25rem;
+}
+
+section.education .education-container .education-content span.education-university,
+section.education .education-container .education-content span.education-speciality{
+  display: block;
+  font-size: var(--smaller-font-size);
+}
+
+section.education .education-container .education-content h3.education-year,
+section.education .education-container .education-content span.education-university{
+  text-align: right;
+}
+
+section.education .education-container .education-content .education-time{
+  padding: 0 1rem;
+  justify-self: center;
+}
+
+section.education .education-container .education-content .education-time span.education-rounder{
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+section.education .education-container .education-content .education-time span.education-rounder::before{
+  content: '';
+  position: absolute;
+  transform: translate(-4px, -4px);
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--first-color);
+  border-radius: 50%;
+}
+
+section.education .education-container .education-content .education-time span.education-line{
+  display: block;
+  height: 90%;
+  width: 2px;
+  background-color: var(--first-color);
+  transform: translate(5px, -4px);
+}
 
 /* ===== SERVICES =====*/
+section.services .services-container{
+  row-gap: 2rem;
+}
 
+section.services .services-container .services-content{
+  padding: 1.5rem 0.5rem;
+  border: 2px solid var(--first-color);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+section.services .services-container .services-content .services-icon{
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: var(--first-color);
+  color: var(--first-color-lighten);
+  border-radius: 50%;
+  margin-bottom: var(--mb-2);
+}
+
+section.services .services-container .services-content .services-title{
+  font-size: 1.25rem;
+  color: var(--first-color-dark);
+  margin-bottom: var(--mb-1);
+}
+
+.services-content, .services-icon, .services-description, .services-title{
+  transition: 0.5s;
+}
+
+section.services .services-container .services-content:hover{
+  background-color: var(--first-color);
+}
+
+section.services .services-container .services-content:hover .services-icon{
+  background-color: var(--first-color-lighten);
+  color: var(--first-color);
+}
+
+section.services .services-container .services-content:hover .services-title{
+  color: var(--first-color-lighten);
+}
+
+section.services .services-container .services-content:hover .services-description{
+  color: var(--first-color-lighten);
+}
 
 /* ===== PROJECT IN MIND  =====*/
+section.project{
+  background-color: var(--first-color);
+  padding-bottom: 0;
+}
 
+section.project .project-container{
+  row-gap: 2rem;
+}
+
+section.project .project-container .project-data{
+  text-align: center;
+}
+
+.project-title, .project-description{
+  color: var(--first-color-lighten);
+}
+
+section.project .project-container .project-data p.project-description{
+  margin-bottom: var(--mb-4)  ;
+}
+
+section.project .project-container .project-data img.project-img{
+  width: 220px;
+  justify-self: center;
+}
 
 /* ===== WORKS =====*/
+section.works .works-container{
+  justify-items: center;
+  row-gap: 2rem;
+}
 
+section.works .works-container .works-img{
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+section.works .works-container .works-img .works-data{
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(204, 75, 44, 0.7);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+section.works .works-container .works-img .works-data .works-link{
+  display: inline-flex;
+  font-size: 1.5rem;
+  background-color: var(--first-color-lighten);
+  color: var(--first-color);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-bottom: var(--mb-2);
+}
+
+section.works .works-container .works-img .works-data .works-title{
+  font-size: var(--h2-font-size);
+  color: var(--first-color-lighten);
+}
+
+section.works .works-container .works-img:hover .works-data{
+  bottom: 0;
+}
 
 /* ===== CONTACT =====*/
 
