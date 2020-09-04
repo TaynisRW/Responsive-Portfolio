@@ -571,9 +571,88 @@ section.works .works-container .works-img:hover .works-data{
 }
 
 /* ===== CONTACT =====*/
+section.contact ::placeholder{
+  color: var(--first-color-dark);
+  font-family: var(--body-font);
+  font-weight: var(--font-medium);
+}
 
+section.contact .contact-container{
+  row-gap: 3rem;
+}
+
+section.contact .contact-container form.contact-form .contact-input{
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  background-color: var(--first-color-light);
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-2);
+  border-radius: 0.5rem;
+}
+
+section.contact .contact-container form.contact-form .contact-button{
+  outline: none;
+  border: none;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+}
+
+section.contact .contact-container .contact-info{
+  margin-bottom: var(--mb-3);
+}
+
+section.contact .contact-container .contact-info h3.contact-subtitle{
+  font-size: var(--h3-font-size);
+  color: var(--first-color-dark);
+  margin-bottom: var(--mb-1);
+}
+
+section.contact .contact-container .contact-info span.contact-text{
+    display: block;
+    padding-left: 1rem;
+}
 
 /* ===== FOOTER =====*/
+footer.footer{
+  background-color: var(--first-color-darken);
+  color: var(--first-color-lighten);
+  text-align: center;
+}
 
+footer.footer .footer-container h1.footer-title{
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-2);
+}
+
+footer.footer .footer-container p.footer-description{
+  margin-bottom: var(--mb-2);
+}
+
+footer.footer .footer-container .footer-social{
+  margin-bottom: 3rem;
+}
+
+footer.footer .footer-container .footer-social .footer-link{
+  display: inline-flex;
+  background-color: var(--first-color);
+  color: var(--first-color-lighten);
+  font-size: 1.1rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin: 0 var(--mb-1);
+  transition: 0.3s;
+}
+
+footer.footer .footer-container .footer-social .footer-link:hover{
+  background-color: var(--first-color-lighten);
+  color: var(--first-color);
+}
+footer.footer .footer-container .footer-copy{
+  font-size: var(--smaller-font-size);
+  color: var(--text-color);
+}
 
 /* ===== MEDIA QUERIES=====*/
